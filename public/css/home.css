@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Dancing Script', cursive;*/
+}
+/*Estilos Bakground Gral*/
+body{
+    background-image: url(../img/img-fondo.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    
+}
+/*Header*/
+.nav-bar{
+    width: 100%;
+    display: block;
+
+}
+.contenedor-header{
+    width: 100%;
+    height: 30px;
+}
+.nombres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+
+/*main*/
+.carrusel{
+    width: 100%;
+    height: 30px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(80, 80, 80, 0.3);
+}
+.backs{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.back-rc{
+    background-image: url(../img/img-back-RC.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    
+    width: 100%;
+}
