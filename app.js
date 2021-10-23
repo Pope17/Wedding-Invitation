@@ -13,9 +13,3 @@ app.get('/', function(req,res){
     res.sendFile(path.join(__dirname, './views/home.html'))
 })
 
-/*document.addEventListener('DOMContentLoaded', () =>{
-    const elementosCarousel = document.querySelectorAll('.carousel');
-    M.Carousel.init(elementosCarousel, {
-        duration: 150
-    })
-}) */
