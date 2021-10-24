@@ -20,11 +20,15 @@
     font-size: 2.6rem;
     font-weight: 900;
 }
+.recepcion > .recepcion-content > .title > div{
+    font-family: 'Dancing Script', cursive;
+}
 
 .recepcion > .recepcion-content > .title h2 {
     font-size: 3rem;
     font-weight: 900;
     /* align-content: center; */
+    
 }
 
 .recepcion > .recepcion-content h3 {
