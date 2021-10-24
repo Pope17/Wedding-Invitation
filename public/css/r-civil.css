@@ -1,0 +1,81 @@
+h1, h2 ,h3 {
+    margin: 0px;
+}
+
+.backs {
+    background-image: url(/img/img-back-RC.jpg);
+    width: 80%;
+    height: 100%;
+    background-attachment: scroll;
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px 0px 50px;
+    margin: auto;
+}
+
+.backs > .back-rc .title {
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.backs > .back-rc > .title > div {
+    font-size: 3rem;
+    color: white;
+}
+
+.backs > .back-rc > .wrapper-evento{
+    width: 100%;
+    background-color: rgba(80, 97, 143, 0.3);
+    border-radius: 2px;
+    padding: 20px;
+}
+
+.backs > .back-rc > .wrapper-evento .evento {
+    padding-bottom: 20px;
+}
+
+.backs > .back-rc > .wrapper-evento > .evento > .lugar h2 {
+    font-size: 2em;
+    margin: 0px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.backs > .back-rc > .wrapper-evento > .evento > .lugar h3 {
+    font-size: 2em;
+    margin: 0px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.backs > .back-rc > .wrapper-evento > .evento > .donde h2 {
+    font-size: 2em;
+    margin: 0px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.backs > .back-rc > .wrapper-evento > .evento > .donde h3 {
+    font-size: 2em;
+    margin: 0px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.helper {
+    height: 25px;
+}
+
+.helper-evento {
+    height: 5px;
+}

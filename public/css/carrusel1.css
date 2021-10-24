@@ -1,8 +1,9 @@
 /*Carrusel 1*/
 #conteItemsCarrusel{
-    height: 30vh;
+    height: 50vh;
     width: 80%;
     overflow: hidden;
+    margin: auto;
 }
 .itemCarrusel{  
     height: 100%;
@@ -33,6 +34,9 @@ i{
     display: flex;
     justify-content: center;
     justify-content: space-around;
+    width: 50%;
+    margin: auto;
+    padding-top: 8px;
 }
 #contePuntos > a{
     font-size: 0.5em;
