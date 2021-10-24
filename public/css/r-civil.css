@@ -31,6 +31,7 @@ h1, h2 ,h3 {
 .backs > .back-rc > .title > div {
     font-size: 3rem;
     color: white;
+    font-family: 'Dancing Script', cursive;
 }
 
 .backs > .back-rc > .wrapper-evento{
@@ -76,6 +77,29 @@ h1, h2 ,h3 {
     height: 25px;
 }
 
+
 .helper-evento {
     height: 5px;
+}
+
+/*Agregado por Pope*/
+.backs > .back-rc > .wrapper-evento > .mapa-ir {
+ color: rgb(255, 255, 255);
+ font-size: 1.3em;
+ background-color: transparent;
+ border-width: 1px solid black;
+}
+.backs > .back-rc > .wrapper-evento > .mapa-ir > a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    background-color: transparent;
+    border-width: 1px solid black;
+    text-align: center;
+    transition: .7s;
+}
+.backs > .back-rc > .wrapper-evento > .mapa-ir > a:hover{
+    color: red;
 }
